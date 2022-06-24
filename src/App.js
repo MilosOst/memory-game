@@ -1,25 +1,24 @@
+import { useState } from 'react';
+import './style.css'
+
+import Scoreboard from './components/Scoreboard.js';
+import Main from './components/Main.js';
 import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [score, setScore] = useState(0);
+	const [highScore, setHighScore] = useState(0);
+
+  	return (
+		<div className="App">
+			<header className="header">
+				<h2 className="header-title">Memory Game</h2>
+				<Scoreboard score={score} highScore={highScore}></Scoreboard>
+			</header>
+			<Main></Main>
+		</div>
+	);
 }
 
 export default App;
