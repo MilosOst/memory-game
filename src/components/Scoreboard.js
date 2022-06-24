@@ -1,7 +1,4 @@
-import { useState } from "react";
-
-export default function Scoreboard(props) {
-
+function Scoreboard(props) {
     return (
         <div className="scoreboard">
             <h4>Score: {props.score}</h4>
@@ -9,3 +6,5 @@ export default function Scoreboard(props) {
         </div>
     );
 }
+
+export default Scoreboard;

@@ -86,29 +86,30 @@ function GameContainer(props) {
 
     const [players, setPlayers] = useState(options);
 
-    const shuffleCards = () => {
-        for (let i = options.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            const temp = options[i];
-            options[i] = options[j];
-            options[j] = temp;
-        }
-        setPlayers(options);
-    }
-
     useEffect(() => {
+        const shuffleCards = () => {
+            for (let i = options.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const temp = options[i];
+                options[i] = options[j];
+                options[j] = temp;
+            }
+            setPlayers(options);
+        };
+
         shuffleCards();
-        // console.log(players);
-        console.log(options);
     }, [props.score]);
-
-    
-
 
     return (
         <div className="game-container">
             {players.map((player) => {
-                return <Card key={player.name} name={player.name} src={player.src} incrementScore={props.incrementScore} resetScore={props.resetScore} score={props.score}/>
+                return <Card
+                    key={player.name}
+                    name={player.name} src={player.src}
+                    incrementScore={props.incrementScore}
+                    resetScore={props.resetScore}
+                    score={props.score}
+                    />
             })}
         </div>
     );

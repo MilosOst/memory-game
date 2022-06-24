@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Card(props) {
+function Card(props) {
     const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
@@ -26,3 +26,5 @@ export default function Card(props) {
         </div>
     );
 }
+
+export default Card;
