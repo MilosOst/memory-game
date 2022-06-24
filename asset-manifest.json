@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.71e2c173.css",
+    "main.js": "/memory-game/static/js/main.4009ed6d.js",
+    "static/js/787.69b12325.chunk.js": "/memory-game/static/js/787.69b12325.chunk.js",
+    "static/media/james-harden.png": "/memory-game/static/media/james-harden.956c24739922ead2d33d.png",
+    "static/media/giannis-antetokounmpo.png": "/memory-game/static/media/giannis-antetokounmpo.e57aceed941df04f348a.png",
+    "static/media/ja-morant.png": "/memory-game/static/media/ja-morant.ac5eb4fa6566d2041a2a.png",
+    "static/media/kyrie-irving.png": "/memory-game/static/media/kyrie-irving.9fe30273378da48e9ab6.png",
+    "static/media/lebron-james.png": "/memory-game/static/media/lebron-james.9e804a84e8c0debc0383.png",
+    "static/media/kevin-durant.png": "/memory-game/static/media/kevin-durant.e299d753169cbee5b51c.png",
+    "static/media/joel-embiid.png": "/memory-game/static/media/joel-embiid.22e8ba4f078e1c30664a.png",
+    "static/media/damian-lillard.png": "/memory-game/static/media/damian-lillard.6984bb28451c1753ea96.png",
+    "static/media/jayson-tatum.png": "/memory-game/static/media/jayson-tatum.4a79edee7a80b4bde755.png",
+    "static/media/nikola-jokic.png": "/memory-game/static/media/nikola-jokic.f4426f8e13a422d03bd5.png",
+    "static/media/luka-doncic.png": "/memory-game/static/media/luka-doncic.3e2f6c1759b515f183de.png",
+    "static/media/chris-paul.png": "/memory-game/static/media/chris-paul.0cf971e5e6193bfdbf1b.png",
+    "static/media/devin-booker.png": "/memory-game/static/media/devin-booker.dfd8d55205a4fd31c40b.png",
+    "static/media/anthony-davis.png": "/memory-game/static/media/anthony-davis.c6dae74bb3deac529b4a.png",
+    "static/media/steph-curry.png": "/memory-game/static/media/steph-curry.ef2edf14915639c60688.png",
+    "index.html": "/memory-game/index.html",
+    "main.71e2c173.css.map": "/memory-game/static/css/main.71e2c173.css.map",
+    "main.4009ed6d.js.map": "/memory-game/static/js/main.4009ed6d.js.map",
+    "787.69b12325.chunk.js.map": "/memory-game/static/js/787.69b12325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71e2c173.css",
+    "static/js/main.4009ed6d.js"
+  ]
+}
