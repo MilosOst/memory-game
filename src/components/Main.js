@@ -1,12 +1,12 @@
 import { useState } from "react";
 import GameContainer from "./GameContainer.js";
 
-export default function Main() {
+export default function Main(props) {
 
 
     return (
         <main className="content">
-            <GameContainer />
+            <GameContainer incrementScore={props.incrementScore} resetScore={props.resetScore} score={props.score}/>
         </main>
     )
 }

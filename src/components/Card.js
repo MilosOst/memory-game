@@ -1,10 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Card(props) {
+    const [clicked, setClicked] = useState(false);
 
+    const handleClick = () => {
+        if (clicked) {
+            props.resetScore();
+        }
+        else {
+            props.incrementScore();
+            setClicked(true);
+        }
+    };
+
+    useEffect(() => {
+        if (props.score === 0) setClicked(false);
+    }, [props.score]);
 
     return (
-        <div className="card">
+        <div className="card" onClick={handleClick}>
             <div className="image-box">
                 <img src={props.src} alt={props.name} />
             </div>
